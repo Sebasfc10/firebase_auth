@@ -2,7 +2,7 @@ name: firebase_ui_auth
 description: Pre-built widgets library that are integrated with the variety of the Firebase Auth providers.
 version: 1.1.14
 repository: https://github.com/Sebasfc10/firebase_auth/tree/main/packages/firebase_ui_auth
-homepage: 
+homepage: https://github.com/Sebasfc10/firebase_auth/tree/main/packages/firebase_ui_auth
 
 environment:
   sdk: '>=2.16.0 <3.0.0'

@@ -792,7 +792,7 @@ class ProfileScreen extends MultiProviderScreen {
           ),
         ),
         Align(child: EditableUserDisplayName(auth: auth)),
-        if (!user.emailVerified) ...[
+        /* if (!user.emailVerified) ...[
           RebuildScope(
             builder: (context) {
               if (user.emailVerified) {
@@ -875,7 +875,7 @@ class ProfileScreen extends MultiProviderScreen {
               );
             },
             scopeKey: mfaScopeKey,
-          ),
+          ), */
         ...children,
         const SizedBox(height: 16),
         SignOutButton(
